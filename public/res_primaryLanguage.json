@@ -1,0 +1,150 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Chirag Kular. Software Engineer with a Master's degree in Computer Science and 4+ years of developing full stack enterprise web applications",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "tools": "Tools",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "BOSTON AIRBNB BOOKING SYSTEM",
+        "startDate": "2017",
+        "description": "Designed a web application which takes Boston Airbnb dataset, store it in MongoDB and performed CRUD. Client-side designed using Bootstrap, Angular UI and templating for dynamic views and server-side using Express.js.",
+        "images": [
+          "images/airbnb1.png",
+          "images//airbnb2.png",
+          "images//airbnb3.png",
+          "images//airbnb4.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJs"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Alexa in Mixed Reality",
+        "startDate": "2018",
+        "description": "Developed a hologram of Alexa in Unity3D for HoloLens and integrated Alexa Voice Service in it. Integrated an Alexa skill to find emotion in the tone of headlines from News API by integrating IBM Watson’s Tone Analyzer.",
+        "images": [
+          "images/alexa1.jpg",
+          "images/alexa2.jpg",
+          "images/alexa3.jpeg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "PROGRAMMABLE WEB QUERY SYSTEM",
+        "startDate": "2016",
+        "description": "Created an application that parsed programmable Web API’s data using Python and stored it in MongoDB. Designed a search page using AngularJS and Flask framework to search relevant APIs from the stored data",
+        "images": [
+          "images/webservices1.jpg"
+        ],
+        "technologies": [
+          {
+            "class": "devicon-angularjs-plain",
+            "name": "AngularJS"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "MatrixCare",
+        "title": "Software Engineer",
+        "years": "08.2020 - present",
+        "mainTech": [
+          "Angular, Java, SQL"
+        ],
+        "technologies": [
+          "Java",
+          "REST API",
+          "SQL",
+          "NPM",
+          "TypeScript",
+          "JavaScript",
+          "Bootstrap",
+          ".NET Core",
+          "Angular",
+          "React"
+        ]
+      },
+      {
+        "company": "MatrixCare",
+        "title": "Associate Software Engineer",
+        "years": "08.2018 - 09.2020",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "Angular 7/8",
+          "TypeScript",
+          "REST API",
+          "SQL"
+        ]
+      },
+      {
+        "company": "MatrixCare",
+        "title": "Developer Intern",
+        "years": "01.2018 - 05.2018",
+        "mainTech": [
+          "C#, .NET"
+        ],
+        "technologies": [
+          ".NET Framework",
+          "HTML5",
+          "CSS3",
+          "Bootstrap"
+        ]
+      },
+      {
+        "company": "MatrixCare",
+        "title": "Developer Intern",
+        "years": "08.2017 - 09.2017",
+        "mainTech": [
+          "C#, AngularJs"
+        ],
+        "technologies": [
+          ".NET Framework",
+          "ASP.NET",
+          "HTML5",
+          "CSS3",
+          "Bootstrap"
+        ]
+      }
+
+    ]
+  }

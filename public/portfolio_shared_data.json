@@ -1,0 +1,100 @@
+{
+    "basic_info": {
+      "name": "Chirag Kular",
+      "titles": [ "Full stack Developer", "Software Engineer", "Software Developer" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/ck4957",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/kularchirag",
+          "class": "fab fa-linkedin-in"
+        }
+      
+      ],
+      "image": "myProfile.jpeg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "85"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "75"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "70"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "65"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "60"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "55"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "65"
+        },
+        {
+          "name": "SQL Server",
+          "class": "devicon-microsoftsqlserver-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "50"
+        },
+        {
+          "nam":"NPM",
+          "class":"devicon-npm-original-wordmark",
+          "level":"50"
+        }
+      ]
+    },
+    "tools": {
+      "icons": [
+        {
+          "name": "IntelliJ",
+          "class":"devicon-intellij-plain"
+        },
+        {
+          "name":"Visual Studio",
+          "class":"devicon-visualstudio-plain"
+        },
+        {
+          "name":"VS Code",
+          "class":"devicon-vscode-plain"
+        }
+      ]
+    }
+  }
