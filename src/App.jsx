@@ -15,15 +15,33 @@ import { loadPortfolioContent, loadResumeManifest } from './utils/portfolioConte
 const HomePage = ({ sharedData, resumeData, resumeManifest }) => {
   const location = useLocation();
 
-  // Scroll to blog section if hash is present
+  // Scroll to section links after routed content is available.
   useEffect(() => {
-    if (location.hash === '#blog') {
-      const blogSection = document.getElementById('blog');
-      if (blogSection) {
-        blogSection.scrollIntoView({ behavior: 'smooth' });
+    if (location.hash) {
+      const sectionId = location.hash.replace('#', '');
+      window.setTimeout(() => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location.hash]);
+
+  useEffect(() => {
+    if (!location.hash) {
+      const redirectHash = window.sessionStorage.getItem('spa-redirect-hash');
+      if (redirectHash) {
+        window.sessionStorage.removeItem('spa-redirect-hash');
+        window.setTimeout(() => {
+          const section = document.getElementById(redirectHash.replace('#', ''));
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
       }
     }
-  }, [location]);
+  }, [location.hash]);
 
   return (
     <div>

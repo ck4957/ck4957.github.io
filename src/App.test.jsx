@@ -1,13 +1,13 @@
 import { render, screen } from "@testing-library/react";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import Navbar from "./components/Navbar";
 
 it("renders without crashing", async () => {
   render(
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   );
 
   expect(await screen.findByText("Portfolio test profile.")).toBeInTheDocument();
@@ -15,7 +15,7 @@ it("renders without crashing", async () => {
 
 it("shows a direct resume link when a current resume exists", () => {
   render(
-    <HashRouter>
+    <BrowserRouter>
       <Navbar
         resumeManifest={{
           current: "resumes/chirag-kular-resume.pdf",
@@ -27,7 +27,7 @@ it("shows a direct resume link when a current resume exists", () => {
           ]
         }}
       />
-    </HashRouter>
+    </BrowserRouter>
   );
 
   expect(screen.getByRole("link", { name: "↓ Resume" })).toHaveAttribute(
