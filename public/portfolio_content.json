@@ -89,15 +89,11 @@
           {
             "name": "Python",
             "class": "devicon-python-plain colored"
-          },
-          {
-            "name": "C#",
-            "class": "devicon-csharp-plain colored"
           }
         ]
       },
       {
-        "name": "Frontend",
+        "name": "Frontend & Backend",
         "icons": [
           {
             "name": "React",
@@ -134,19 +130,10 @@
           {
             "name": "Sass",
             "class": "devicon-sass-original colored"
-          }
-        ]
-      },
-      {
-        "name": "Backend",
-        "icons": [
+          },
           {
             "name": "NodeJS",
             "class": "devicon-nodejs-plain colored"
-          },
-          {
-            "name": ".NET Core",
-            "class": "devicon-dotnetcore-plain colored"
           }
         ]
       },
@@ -164,6 +151,23 @@
           {
             "name": "PostgreSQL",
             "class": "devicon-postgresql-plain colored"
+          },
+          {
+            "name": "Oracle",
+            "class": "devicon-oracle-original colored"
+          }
+        ]
+      },
+      {
+        "name": "AI Coding Tools",
+        "icons": [
+          {
+            "name": "OpenAI Codex",
+            "icon": "simple-icons:openai"
+          },
+          {
+            "name": "GitHub Copilot",
+            "icon": "simple-icons:githubcopilot"
           }
         ]
       },

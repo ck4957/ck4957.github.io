@@ -106,6 +106,16 @@ const App = () => {
         }
       />
       <Route path="/blog/:slug" element={<BlogPost />} />
+      <Route
+        path="*"
+        element={
+          <HomePage
+            sharedData={sharedData}
+            resumeData={resumeData}
+            resumeManifest={resumeManifest}
+          />
+        }
+      />
     </Routes>
   );
 };
