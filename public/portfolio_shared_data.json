@@ -1,0 +1,210 @@
+{
+  "basic_info": {
+    "name": "Chirag Kular",
+    "titles": [
+      "Full stack Developer",
+      "Software Engineer"
+    ],
+    "patent": {
+      "title": "Systems and Methods for Providing prompts on an Electronic Device",
+      "number": "US-20230004865-A1",
+      "status": "Published: 2023-01-05, Patent Pending",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230004865"
+    },
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ck4957",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kularchirag/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Buy Me Coffee",
+        "url": "https://buymeacoffee.com/ckular",
+        "class": "fa fa-coffee"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@ck4957",
+        "class": "fab fa-medium"
+      },
+      {
+        "name": "Patent",
+        "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230004865",
+        "class": "fa fa-certificate"
+      }
+    ],
+    "image": "Chirag.jpg",
+    "certifications": [
+      "aws_dva_c02.png",
+      "aws_saa_c03.png",
+      "aws_dea_c01.png",
+      "azure_ai_900.png",
+      "dd-fund.png",
+      "dd-apm.png"
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "icons": [
+          {
+            "name": "TypeScript",
+            "class": "devicon-typescript-plain colored"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain colored"
+          },
+          {
+            "name": "Java",
+            "class": "devicon-java-plain colored"
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain colored"
+          },
+          {
+            "name": "C#",
+            "class": "devicon-csharp-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "icons": [
+          {
+            "name": "React",
+            "class": "devicon-react-original colored"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain colored"
+          },
+          {
+            "name": "Next.js",
+            "class": "devicon-nextjs-plain colored"
+          },
+          {
+            "name": "SwiftUI",
+            "class": "devicon-swift-plain colored"
+          },
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain colored"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain colored"
+          },
+          {
+            "name": "Tailwind CSS",
+            "class": "devicon-tailwindcss-plain colored"
+          },
+          {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain colored"
+          },
+          {
+            "name": "Sass",
+            "class": "devicon-sass-original colored"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "icons": [
+          {
+            "name": "NodeJS",
+            "class": "devicon-nodejs-plain colored"
+          },
+          {
+            "name": ".NET Core",
+            "class": "devicon-dotnetcore-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Databases",
+        "icons": [
+          {
+            "name": "SQL Server",
+            "class": "devicon-microsoftsqlserver-plain colored"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain colored"
+          },
+          {
+            "name": "PostgreSQL",
+            "class": "devicon-postgresql-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "icons": [
+          {
+            "name": "AWS",
+            "class": "devicon-amazonwebservices-plain colored"
+          },
+          {
+            "name": "Git",
+            "class": "devicon-git-plain colored"
+          },
+          {
+            "name": "GitHub",
+            "class": "devicon-github-original colored"
+          }
+        ]
+      },
+      {
+        "name": "Observability & Monitoring",
+        "icons": [
+          {
+            "name": "Datadog",
+            "class": "devicon-datadog-plain colored"
+          },
+          {
+            "name": "Splunk",
+            "class": "devicon-splunk-original-wordmark"
+          }
+        ]
+      },
+      {
+        "name": "Tools & IDE",
+        "icons": [
+          {
+            "name": "VS Code",
+            "class": "devicon-vscode-plain colored"
+          },
+          {
+            "name": "Visual Studio",
+            "class": "devicon-visualstudio-plain colored"
+          },
+          {
+            "name": "IntelliJ",
+            "class": "devicon-intellij-plain colored"
+          },
+          {
+            "name": "Postman",
+            "class": "devicon-postman-plain colored"
+          },
+          {
+            "name": "Figma",
+            "class": "devicon-figma-plain colored"
+          },
+          {
+            "name": "Jest",
+            "class": "devicon-jest-plain colored"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "personal": {
+    "name": "Chirag Kular",
+    "titles": [
+      "AI-Focused Full Stack Developer",
+      "Software Engineer",
+      "LLM and RAG Builder"
+    ],
+    "patent": {
+      "title": "Systems and Methods for Providing prompts on an Electronic Device",
+      "number": "US-20230004865-A1",
+      "status": "Published: 2023-01-05, Patent Pending",
+      "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230004865"
+    },
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ck4957",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kularchirag/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Buy Me Coffee",
+        "url": "https://buymeacoffee.com/ckular",
+        "class": "fa fa-coffee"
+      },
+      {
+        "name": "Medium",
+        "url": "https://medium.com/@ck4957",
+        "class": "fab fa-medium"
+      },
+      {
+        "name": "Patent",
+        "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20230004865",
+        "class": "fa fa-certificate"
+      }
+    ],
+    "image": "Chirag.jpg",
+    "certifications": [
+      "aws_dva_c02.png",
+      "aws_saa_c03.png",
+      "aws_dea_c01.png",
+      "azure_ai_900.png",
+      "dd-fund.png",
+      "dd-apm.png"
+    ],
+    "tagline": "Full-stack engineer building reliable web, cloud, and healthcare software while actively applying AI-assisted development, LLM applications, and retrieval-augmented generation patterns.",
+    "focus": [
+      "AI-assisted development workflows",
+      "LLM application patterns",
+      "Retrieval-augmented generation",
+      "Cloud-native APIs and automation"
+    ]
+  },
+  "profile": {
+    "description_header": "Hi 👋 I'm Chirag Kular",
+    "description": "Senior Software Engineer with 8+ years of experience across full-stack development, cloud architecture, and scalable enterprise solutions. I build modular component systems, AWS-backed services, healthcare data workflows, and accessible React/Angular interfaces, and I am actively expanding that foundation into practical AI engineering with LLM integrations, RAG patterns, prompt workflows, and AI-assisted developer tooling.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "tools": "Tools",
+      "experience": "Experience",
+      "resume": "Resume"
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "icons": [
+          {
+            "name": "TypeScript",
+            "class": "devicon-typescript-plain colored"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain colored"
+          },
+          {
+            "name": "Java",
+            "class": "devicon-java-plain colored"
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain colored"
+          },
+          {
+            "name": "C#",
+            "class": "devicon-csharp-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Frontend",
+        "icons": [
+          {
+            "name": "React",
+            "class": "devicon-react-original colored"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain colored"
+          },
+          {
+            "name": "Next.js",
+            "class": "devicon-nextjs-plain colored"
+          },
+          {
+            "name": "SwiftUI",
+            "class": "devicon-swift-plain colored"
+          },
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain colored"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain colored"
+          },
+          {
+            "name": "Tailwind CSS",
+            "class": "devicon-tailwindcss-plain colored"
+          },
+          {
+            "name": "Bootstrap",
+            "class": "devicon-bootstrap-plain colored"
+          },
+          {
+            "name": "Sass",
+            "class": "devicon-sass-original colored"
+          }
+        ]
+      },
+      {
+        "name": "Backend",
+        "icons": [
+          {
+            "name": "NodeJS",
+            "class": "devicon-nodejs-plain colored"
+          },
+          {
+            "name": ".NET Core",
+            "class": "devicon-dotnetcore-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Databases",
+        "icons": [
+          {
+            "name": "SQL Server",
+            "class": "devicon-microsoftsqlserver-plain colored"
+          },
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain colored"
+          },
+          {
+            "name": "PostgreSQL",
+            "class": "devicon-postgresql-plain colored"
+          }
+        ]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "icons": [
+          {
+            "name": "AWS",
+            "class": "devicon-amazonwebservices-plain colored"
+          },
+          {
+            "name": "Git",
+            "class": "devicon-git-plain colored"
+          },
+          {
+            "name": "GitHub",
+            "class": "devicon-github-original colored"
+          }
+        ]
+      },
+      {
+        "name": "Observability & Monitoring",
+        "icons": [
+          {
+            "name": "Datadog",
+            "class": "devicon-datadog-plain colored"
+          },
+          {
+            "name": "Splunk",
+            "class": "devicon-splunk-original-wordmark"
+          }
+        ]
+      },
+      {
+        "name": "Tools & IDE",
+        "icons": [
+          {
+            "name": "VS Code",
+            "class": "devicon-vscode-plain colored"
+          },
+          {
+            "name": "Visual Studio",
+            "class": "devicon-visualstudio-plain colored"
+          },
+          {
+            "name": "IntelliJ",
+            "class": "devicon-intellij-plain colored"
+          },
+          {
+            "name": "Postman",
+            "class": "devicon-postman-plain colored"
+          },
+          {
+            "name": "Figma",
+            "class": "devicon-figma-plain colored"
+          },
+          {
+            "name": "Jest",
+            "class": "devicon-jest-plain colored"
+          }
+        ]
+      }
+    ]
+  },
+  "ai_positioning": {
+    "section_name": "AI Focus",
+    "headline": "Learning AI by building practical software around it.",
+    "summary": "I am positioning my next portfolio work around AI-enabled product engineering: LLM-backed workflows, retrieval over trusted data, prompt evaluation, and cloud deployment patterns that make AI features maintainable instead of flashy demos.",
+    "highlights": [
+      "Exploring LLM application architecture, prompt design, and structured output patterns.",
+      "Practicing RAG fundamentals: embeddings, vector search, chunking, grounding, and answer evaluation.",
+      "Connecting AI features to production habits from AWS, healthcare data, APIs, testing, and CI/CD.",
+      "Using AI coding tools deliberately to speed up iteration while keeping review, tests, and architecture human-owned."
+    ],
+    "keywords": [
+      "LLM",
+      "RAG",
+      "AI-assisted engineering",
+      "Prompt engineering",
+      "Embeddings",
+      "Vector search",
+      "AWS",
+      "FHIR"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Count Sprout",
+      "startDate": "Jul-2026",
+      "description": "An iPad-first early-learning game where children solve calm counting, comparison, and seed-balancing puzzles while growing a garden.",
+      "images": [
+        "images/CountSprout1.jpg",
+        "images/CountSprout2.jpg",
+        "images/CountSprout3.jpg",
+        "images/CountSprout4.jpg",
+        "images/CountSprout5.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/count-sprout/id6785066902",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "iPadOS"
+        }
+      ]
+    },
+    {
+      "title": "ScanTip",
+      "startDate": "Jun-2026",
+      "description": "An iOS and iPadOS app for scanning receipts, calculating tips and totals, saving dining history, and customizing tip presets.",
+      "images": [
+        "images/ScanTip1.jpg",
+        "images/ScanTip2.jpg",
+        "images/ScanTip3.jpg",
+        "images/ScanTip4.jpg",
+        "images/ScanTip5.jpg",
+        "images/ScanTip6.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/scantip/id6741721331",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "iOS"
+        }
+      ]
+    },
+    {
+      "title": "MemoCardFlip",
+      "startDate": "Mar-2025",
+      "description": "A Vision Pro memory card game where classic matching gameplay uses spatial layouts, colorful symbols, and smooth card-flip animations.",
+      "images": [
+        "images/MemoCardFlipVision1.jpg",
+        "images/MemoCardFlipVision2.jpg",
+        "images/MemoCardFlipVision3.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/memocardflip/id6742595725",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "visionOS"
+        }
+      ]
+    },
+    {
+      "title": "Angular Store",
+      "startDate": "Nov-2023",
+      "description": "Created a E-commerce store list products in various categories and add to cart and checkout using Angular.Typescript, Express and Stripe.",
+      "images": [
+        "images/AngularStore.png"
+      ],
+      "url": "https://angular-store-weld.vercel.app/home",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJs"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express"
+        },
+        {
+          "class": "tailwindcss-original-wordmark",
+          "name": "TailwindCSS"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Angular Material"
+        }
+      ]
+    },
+    {
+      "title": "Housing App",
+      "startDate": "Oct-2023",
+      "description": "Created a Next.js app to add and list houses for sale with shared components, hooks and deployed on Vercel.",
+      "images": [
+        "images/housingApp.jpg"
+      ],
+      "url": "https://ps-react-housing-app.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original colored",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-react-original-wordmark colored",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Team member allocation",
+      "startDate": "2022",
+      "description": "Created this project to learn React, functional components, routing, fetching data from API.",
+      "images": [
+        "images/teamMember.jpg"
+      ],
+      "url": "https://team-member.vercel.app",
+      "technologies": [
+        {
+          "class": "devicon-react-original-wordmark colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Alexa in Mixed Reality",
+      "startDate": "2018",
+      "description": "Developed a hologram of Alexa in Unity3D for HoloLens and integrated Alexa Voice Service in it. Integrated an Alexa skill to find emotion in the tone of headlines from News API by integrating IBM Watson’s Tone Analyzer.",
+      "images": [
+        "images/alexa1.jpg",
+        "images/alexa2.jpg",
+        "images/alexa3.jpeg"
+      ],
+      "url": "https://www.rit.edu/news/student-spotlight-creating-holo-assistant",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "BOSTON AIRBNB BOOKING SYSTEM",
+      "startDate": "2017",
+      "description": "Designed a web application which takes Boston Airbnb dataset, store it in MongoDB and performed CRUD. Client-side designed using Bootstrap, Angular UI and templating for dynamic views and server-side using Express.js.",
+      "images": [
+        "images/airbnb1.png",
+        "images/airbnb2.png",
+        "images/airbnb3.png",
+        "images/airbnb4.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJs"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "PROGRAMMABLE WEB QUERY SYSTEM",
+      "startDate": "2016",
+      "description": "Created an application that parsed programmable Web API’s data using Python and stored it in MongoDB. Designed a search page using AngularJS and Flask framework to search relevant APIs from the stored data",
+      "images": [
+        "images/webServices1.jpg"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJS"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ICF",
+      "title": "Senior Software Engineer",
+      "years": "02.2026 - Present",
+      "mainTech": [
+        "NextJS, AWS, PostgreSQL, USWDS, Codex"
+      ],
+      "technologies": [
+        "NextJS",
+        "TypeScript",
+        "Playwright",
+        "Load Testing",
+        "AWS EC2",
+        "Datadog",
+        "PostgreSQL",
+        "USWDS",
+        "GitHub Actions",
+        "OpenAI Codex"
+      ]
+    },
+    {
+      "company": "TEKSystems",
+      "title": "Software Engineer II (Contract)",
+      "years": "10.2024 - 02.2026",
+      "mainTech": [
+        "Lit, Vite, HTML, CSS, Angular, TypeScript, Storybook"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Storybook",
+        "Lit",
+        "TypeScript",
+        "Gitlab",
+        "CI/CD",
+        "Jest",
+        "Open Web Components",
+        "Open Shift"
+      ]
+    },
+    {
+      "company": "ICF",
+      "title": "Software Engineer",
+      "years": "07.2023 - 10.2024",
+      "mainTech": [
+        "FHIR, NodeJS, AWS, Firely"
+      ],
+      "technologies": [
+        "FHIR",
+        "JavaScript",
+        "Jest",
+        "Microservices",
+        "AWS S3",
+        "AWS Lambda",
+        "AWS EKS",
+        "Step Functions",
+        "Splunk",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Software Engineer",
+      "years": "08.2018 - 06.2023",
+      "mainTech": [
+        "Angular, Java, SQL"
+      ],
+      "technologies": [
+        "Java",
+        "REST API",
+        "SQL",
+        "NPM",
+        "TypeScript",
+        "JavaScript",
+        "Bootstrap",
+        ".NET Core",
+        "Angular",
+        "React"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Developer Intern",
+      "years": "01.2018 - 05.2018",
+      "mainTech": [
+        "Java, jQuery, LUIS.ai"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Developer Intern",
+      "years": "08.2017 - 09.2017",
+      "mainTech": [
+        "AngularJs, Bootstrap, C#, SQL"
+      ],
+      "technologies": [
+        ".NET Framework",
+        "ASP.NET",
+        "HTML5",
+        "CSS3",
+        "Bootstrap"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+@use '../light-slider';
+
+body[data-theme="light"] {
+    @include light-slider.generate-styles;
+ 
+    .slider-tab {
+       background-color: #D7CAAA;
+    }
+}
