@@ -1,0 +1,322 @@
+{
+  "basic_info": {
+    "description_header": "Hi 👋 I'm Chirag Kular",
+    "description": "Senior Software Engineer with 8+ years of experience specializing in full-stack development, cloud architecture, and scalable enterprise solutions. Proven expertise in building modular component libraries, designing microservices on AWS, and developing accessible, responsive user interfaces using modern frameworks including React, Angular, Lit, and TypeScript. Demonstrated success in healthcare technology (EHR/FHIR), and enterprise software, with a track record of improving development velocity by ~15%, and delivering 30+ reusable components.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "tools": "Tools",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Count Sprout",
+      "startDate": "Jul-2026",
+      "description": "An iPad-first early-learning game where children solve calm counting, comparison, and seed-balancing puzzles while growing a garden.",
+      "images": [
+        "images/CountSprout1.jpg",
+        "images/CountSprout2.jpg",
+        "images/CountSprout3.jpg",
+        "images/CountSprout4.jpg",
+        "images/CountSprout5.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/count-sprout/id6785066902",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "iPadOS"
+        }
+      ]
+    },
+    {
+      "title": "ScanTip",
+      "startDate": "Jun-2026",
+      "description": "An iOS and iPadOS app for scanning receipts, calculating tips and totals, saving dining history, and customizing tip presets.",
+      "images": [
+        "images/ScanTip1.jpg",
+        "images/ScanTip2.jpg",
+        "images/ScanTip3.jpg",
+        "images/ScanTip4.jpg",
+        "images/ScanTip5.jpg",
+        "images/ScanTip6.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/scantip/id6741721331",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "iOS"
+        }
+      ]
+    },
+    {
+      "title": "MemoCardFlip",
+      "startDate": "Mar-2025",
+      "description": "A Vision Pro memory card game where classic matching gameplay uses spatial layouts, colorful symbols, and smooth card-flip animations.",
+      "images": [
+        "images/MemoCardFlipVision1.jpg",
+        "images/MemoCardFlipVision2.jpg",
+        "images/MemoCardFlipVision3.jpg"
+      ],
+      "url": "https://apps.apple.com/us/app/memocardflip/id6742595725",
+      "technologies": [
+        {
+          "class": "devicon-swift-plain colored",
+          "name": "Swift"
+        },
+        {
+          "class": "devicon-xcode-plain colored",
+          "name": "Xcode"
+        },
+        {
+          "class": "devicon-apple-original",
+          "name": "visionOS"
+        }
+      ]
+    },
+    {
+      "title": "Angular Store",
+      "startDate": "Nov-2023",
+      "description": "Created a E-commerce store list products in various categories and add to cart and checkout using Angular.Typescript, Express and Stripe.",
+      "images": [
+        "images/AngularStore.png"
+      ],
+      "url": "https://angular-store-weld.vercel.app/home",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJs"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express"
+        },
+        {
+          "class": "tailwindcss-original-wordmark",
+          "name": "TailwindCSS"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Angular Material"
+        }
+      ]
+    },
+    {
+      "title": "Housing App",
+      "startDate": "Oct-2023",
+      "description": "Created a Next.js app to add and list houses for sale with shared components, hooks and deployed on Vercel.",
+      "images": [
+        "images/housingApp.jpg"
+      ],
+      "url": "https://ps-react-housing-app.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original colored",
+          "name": "Next.js"
+        },
+        {
+          "class": "devicon-react-original-wordmark colored",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Team member allocation",
+      "startDate": "2022",
+      "description": "Created this project to learn React, functional components, routing, fetching data from API.",
+      "images": [
+        "images/teamMember.jpg"
+      ],
+      "url": "https://team-member.vercel.app",
+      "technologies": [
+        {
+          "class": "devicon-react-original-wordmark colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Alexa in Mixed Reality",
+      "startDate": "2018",
+      "description": "Developed a hologram of Alexa in Unity3D for HoloLens and integrated Alexa Voice Service in it. Integrated an Alexa skill to find emotion in the tone of headlines from News API by integrating IBM Watson’s Tone Analyzer.",
+      "images": [
+        "images/alexa1.jpg",
+        "images/alexa2.jpg",
+        "images/alexa3.jpeg"
+      ],
+      "url": "https://www.rit.edu/news/student-spotlight-creating-holo-assistant",
+      "technologies": [
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "BOSTON AIRBNB BOOKING SYSTEM",
+      "startDate": "2017",
+      "description": "Designed a web application which takes Boston Airbnb dataset, store it in MongoDB and performed CRUD. Client-side designed using Bootstrap, Angular UI and templating for dynamic views and server-side using Express.js.",
+      "images": [
+        "images/airbnb1.png",
+        "images/airbnb2.png",
+        "images/airbnb3.png",
+        "images/airbnb4.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJs"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "PROGRAMMABLE WEB QUERY SYSTEM",
+      "startDate": "2016",
+      "description": "Created an application that parsed programmable Web API’s data using Python and stored it in MongoDB. Designed a search page using AngularJS and Flask framework to search relevant APIs from the stored data",
+      "images": [
+        "images/webServices1.jpg"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "AngularJS"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TEKSystems",
+      "title": "Software Engineer II (Contract)",
+      "years": "10.2024 - Present",
+      "mainTech": [
+        "Lit, Vite, HTML, CSS, Angular, TypeScript, Storybook"
+      ],
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "Storybook",
+        "Lit",
+        "TypeScript",
+        "Gitlab",
+        "CI/CD",
+        "Jest",
+        "Open Web Components",
+        "Open Shift"
+      ]
+    },
+    {
+      "company": "ICF",
+      "title": "Software Engineer",
+      "years": "07.2023 - 10.2024",
+      "mainTech": [
+        "FHIR, NodeJS, AWS, Firely"
+      ],
+      "technologies": [
+        "FHIR",
+        "JavaScript",
+        "Jest",
+        "Microservices",
+        "AWS S3",
+        "AWS Lambda",
+        "AWS EKS",
+        "Step Functions",
+        "Splunk",
+        "Python",
+        "Docker"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Software Engineer",
+      "years": "08.2018 - 06.2023",
+      "mainTech": [
+        "Angular, Java, SQL"
+      ],
+      "technologies": [
+        "Java",
+        "REST API",
+        "SQL",
+        "NPM",
+        "TypeScript",
+        "JavaScript",
+        "Bootstrap",
+        ".NET Core",
+        "Angular",
+        "React"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Developer Intern",
+      "years": "01.2018 - 05.2018",
+      "mainTech": [
+        "Java, jQuery, LUIS.ai"
+      ],
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "JavaScript"
+      ]
+    },
+    {
+      "company": "MatrixCare",
+      "title": "Developer Intern",
+      "years": "08.2017 - 09.2017",
+      "mainTech": [
+        "AngularJs, Bootstrap, C#, SQL"
+      ],
+      "technologies": [
+        ".NET Framework",
+        "ASP.NET",
+        "HTML5",
+        "CSS3",
+        "Bootstrap"
+      ]
+    }
+  ]
+}
