@@ -24,7 +24,7 @@ const Navbar = ({ resumeManifest }) => {
     { id: 'home', label: 'Home', icon: '🏠' },
     { id: 'ai-focus', label: 'AI', icon: '✦' },
     { id: 'blog', label: 'Blog', icon: '📝' },
-    { id: 'portfolio', label: 'Projects', icon: '💼' },
+    { id: 'apps', label: 'Apps', icon: '✦' },
     { id: 'skills', label: 'Skills', icon: '🛠️' },
     { id: 'resume', label: 'Experience', icon: '📋' },
   ];

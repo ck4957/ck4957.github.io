@@ -22,11 +22,24 @@ assert(content.profile?.description, 'portfolio_content.json: profile.descriptio
 assert(Array.isArray(content.projects), 'portfolio_content.json: projects must be an array.');
 assert(Array.isArray(content.experience), 'portfolio_content.json: experience must be an array.');
 assert(content.skills?.categories?.length, 'portfolio_content.json: skills.categories is required.');
+assert(Array.isArray(content.apps), 'portfolio_content.json: apps must be an array.');
 
 for (const project of content.projects) {
   assert(project.title, 'Each project needs a title.');
   assert(project.description, `Project "${project.title}" needs a description.`);
   assert(Array.isArray(project.images), `Project "${project.title}" needs an images array.`);
+}
+
+for (const app of content.apps) {
+  assert(app.title, 'Each app needs a title.');
+  assert(app.description, `App "${app.title}" needs a description.`);
+  assert(app.platform, `App "${app.title}" needs a platform.`);
+  assert(Array.isArray(app.images) && app.images.length, `App "${app.title}" needs an images array.`);
+  assert(app.productUrl, `App "${app.title}" needs a product URL.`);
+
+  for (const image of app.images) {
+    await access(path.join(root, 'public', image));
+  }
 }
 
 const manifest = await readJson('public/resumes/manifest.json');

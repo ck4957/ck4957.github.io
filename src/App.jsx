@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import AIFocus from './components/AIFocus';
+import Apps from './components/Apps';
 import { loadPortfolioContent, loadResumeManifest } from './utils/portfolioContent';
 
 const HomePage = ({ sharedData, resumeData, resumeManifest }) => {
@@ -51,6 +52,7 @@ const HomePage = ({ sharedData, resumeData, resumeManifest }) => {
               sharedBasicInfo={sharedData.basic_info} />
       <AIFocus aiPositioning={resumeData.ai_positioning} />
       <Blog />
+      <Apps apps={resumeData.apps} appsSection={resumeData.apps_section} />
       <Projects
         resumeProjects={resumeData.projects}
         resumeBasicInfo={resumeData.basic_info}

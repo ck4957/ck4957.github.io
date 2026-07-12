@@ -22,6 +22,8 @@ const normalizeContent = (content) => ({
   resumeData: {
     basic_info: content.profile,
     projects: content.projects,
+    apps: content.apps,
+    apps_section: content.apps_section,
     experience: content.experience,
     ai_positioning: content.ai_positioning
   }
