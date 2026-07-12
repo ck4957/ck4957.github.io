@@ -49,7 +49,17 @@ const Apps = ({ apps = [], appsSection = {} }) => {
                   <span className="app-shelf-dot" aria-hidden="true" />
                   {app.platform}
                 </p>
-                <h3>{app.title}</h3>
+                <div className="app-shelf-title-row">
+                  {app.appIcon && (
+                    <img
+                      className="app-shelf-app-icon"
+                      src={app.appIcon}
+                      alt=""
+                      aria-hidden="true"
+                    />
+                  )}
+                  <h3>{app.title}</h3>
+                </div>
                 <p className="app-shelf-description">{app.description}</p>
                 <div className="app-shelf-links">
                   {app.productUrl && (

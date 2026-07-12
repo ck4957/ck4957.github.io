@@ -40,6 +40,10 @@ for (const app of content.apps) {
   for (const image of app.images) {
     await access(path.join(root, 'public', image));
   }
+
+  if (app.appIcon) {
+    await access(path.join(root, 'public', app.appIcon));
+  }
 }
 
 const manifest = await readJson('public/resumes/manifest.json');

@@ -12,86 +12,6 @@
   },
   "projects": [
     {
-      "title": "Count Sprout",
-      "startDate": "Jul-2026",
-      "description": "An iPad-first early-learning game where children solve calm counting, comparison, and seed-balancing puzzles while growing a garden.",
-      "images": [
-        "images/CountSprout1.jpg",
-        "images/CountSprout2.jpg",
-        "images/CountSprout3.jpg",
-        "images/CountSprout4.jpg",
-        "images/CountSprout5.jpg"
-      ],
-      "url": "https://apps.apple.com/us/app/count-sprout/id6785066902",
-      "technologies": [
-        {
-          "class": "devicon-swift-plain colored",
-          "name": "Swift"
-        },
-        {
-          "class": "devicon-xcode-plain colored",
-          "name": "Xcode"
-        },
-        {
-          "class": "devicon-apple-original",
-          "name": "iPadOS"
-        }
-      ]
-    },
-    {
-      "title": "ScanTip",
-      "startDate": "Jun-2026",
-      "description": "An iOS and iPadOS app for scanning receipts, calculating tips and totals, saving dining history, and customizing tip presets.",
-      "images": [
-        "images/ScanTip1.jpg",
-        "images/ScanTip2.jpg",
-        "images/ScanTip3.jpg",
-        "images/ScanTip4.jpg",
-        "images/ScanTip5.jpg",
-        "images/ScanTip6.jpg"
-      ],
-      "url": "https://apps.apple.com/us/app/scantip/id6741721331",
-      "technologies": [
-        {
-          "class": "devicon-swift-plain colored",
-          "name": "Swift"
-        },
-        {
-          "class": "devicon-xcode-plain colored",
-          "name": "Xcode"
-        },
-        {
-          "class": "devicon-apple-original",
-          "name": "iOS"
-        }
-      ]
-    },
-    {
-      "title": "MemoCardFlip",
-      "startDate": "Mar-2025",
-      "description": "A Vision Pro memory card game where classic matching gameplay uses spatial layouts, colorful symbols, and smooth card-flip animations.",
-      "images": [
-        "images/MemoCardFlipVision1.jpg",
-        "images/MemoCardFlipVision2.jpg",
-        "images/MemoCardFlipVision3.jpg"
-      ],
-      "url": "https://apps.apple.com/us/app/memocardflip/id6742595725",
-      "technologies": [
-        {
-          "class": "devicon-swift-plain colored",
-          "name": "Swift"
-        },
-        {
-          "class": "devicon-xcode-plain colored",
-          "name": "Xcode"
-        },
-        {
-          "class": "devicon-apple-original",
-          "name": "visionOS"
-        }
-      ]
-    },
-    {
       "title": "Angular Store",
       "startDate": "Nov-2023",
       "description": "Created a E-commerce store list products in various categories and add to cart and checkout using Angular.Typescript, Express and Stripe.",
@@ -224,6 +144,59 @@
           "name": "HTML5"
         }
       ]
+    }
+  ],
+  "apps_section": {
+    "heading": "Apps I’m shipping",
+    "description": "Small, useful products for everyday life, learning, memory, and care."
+  },
+  "apps": [
+    {
+      "title": "Scan Tip",
+      "startDate": "Jun-2026",
+      "platform": "iPhone + iPad",
+      "mediaType": "phone",
+      "accent": "blue",
+      "description": "Scan receipts, split bills, and leave the math to a calmer tip calculator.",
+      "images": ["images/apps/scan-tip.png"],
+      "appIcon": "images/apps/icons/scan-tip.png",
+      "productUrl": "https://ck4957.github.io/ScanTip/",
+      "appStoreUrl": "https://apps.apple.com/us/app/scantip/id6741721331"
+    },
+    {
+      "title": "Count & Sprout",
+      "startDate": "Jul-2026",
+      "platform": "iPadOS",
+      "mediaType": "tablet",
+      "accent": "green",
+      "description": "A calm, hands-on counting game where children solve tactile puzzles and grow a peaceful garden.",
+      "images": ["images/apps/count-sprout.png"],
+      "appIcon": "images/apps/icons/count-sprout.png",
+      "productUrl": "https://ck4957.github.io/count-sprout/",
+      "appStoreUrl": "https://apps.apple.com/us/app/count-sprout/id6785066902"
+    },
+    {
+      "title": "MemoFlip",
+      "startDate": "Mar-2025",
+      "platform": "Apple Vision Pro",
+      "mediaType": "spatial",
+      "accent": "lavender",
+      "description": "A spatial memory game for Apple Vision Pro with focused boards, colorful themes, and satisfying card flips.",
+      "images": ["images/apps/memo-flip.png"],
+      "appIcon": "images/apps/icons/memo-flip.png",
+      "productUrl": "https://ck4957.github.io/VisionPro-MemoFlip/",
+      "appStoreUrl": "https://apps.apple.com/us/app/memocardflip/id6742595725"
+    },
+    {
+      "title": "Hulas Tracker",
+      "startDate": "Jul-2026",
+      "platform": "iPhone + iPad",
+      "mediaType": "phone",
+      "accent": "teal",
+      "description": "A calmer way to capture walk context, behavior, recovery, and what helped while the details are fresh.",
+      "images": ["images/apps/hulas-tracker.png"],
+      "appIcon": "images/apps/icons/hulas-tracker.png",
+      "productUrl": "https://ck4957.github.io/hulas-tracker/"
     }
   ],
   "experience": [

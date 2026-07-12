@@ -678,12 +678,12 @@ header h1 {
 }
 
 .app-shelf-row--featured {
-	min-height: 39rem;
+	min-height: 31rem;
 }
 
 .app-shelf-row--featured .app-shelf-copy {
 	align-self: start;
-	padding-top: 6rem;
+	padding-top: 4.8rem;
 }
 
 .app-shelf-marker {
@@ -735,11 +735,28 @@ header h1 {
 
 .app-shelf-copy h3 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: clamp(2.8rem, 3.8vw, 4.6rem);
+	font-size: clamp(2.7rem, 3.5vw, 4.2rem);
 	font-weight: 600;
 	letter-spacing: -0.04em;
 	line-height: 1;
-	margin: 0 0 1.2rem;
+	margin: 0;
+}
+
+.app-shelf-title-row {
+	align-items: center;
+	display: flex;
+	gap: 1.2rem;
+	margin-bottom: 1.2rem;
+}
+
+.app-shelf-app-icon {
+	border: 1px solid rgba(23, 24, 27, 0.12);
+	border-radius: 1.2rem;
+	box-shadow: 0 0.8rem 1.6rem rgba(29, 30, 35, 0.14);
+	flex: 0 0 auto;
+	height: 5.4rem;
+	object-fit: cover;
+	width: 5.4rem;
 }
 
 .app-shelf-description {
@@ -792,15 +809,15 @@ header h1 {
 	align-items: center;
 	background: #f2f0eb;
 	display: flex;
+	height: 22rem;
 	justify-content: center;
-	min-height: 22rem;
 	overflow: hidden;
 	position: relative;
 	text-decoration: none;
 }
 
 .app-shelf-row--featured .app-shelf-media {
-	min-height: 39rem;
+	height: 31rem;
 }
 
 .app-shelf-media img {
@@ -956,11 +973,11 @@ body[data-theme="dark"] .app-shelf-media {
 	.app-shelf-row--featured .app-shelf-media {
 		grid-column: 2;
 		grid-row: 2;
-		min-height: 20rem;
+		height: 20rem;
 	}
 
 	.app-shelf-row--featured .app-shelf-media {
-		min-height: 30rem;
+		height: 26rem;
 	}
 
 	.app-shelf-media--phone img {

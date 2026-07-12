@@ -290,13 +290,9 @@
       "images": [
         "images/apps/scan-tip.png"
       ],
+      "appIcon": "images/apps/icons/scan-tip.png",
       "productUrl": "https://ck4957.github.io/ScanTip/",
-      "appStoreUrl": "https://apps.apple.com/us/app/scantip/id6741721331",
-      "technologies": [
-        { "class": "devicon-swift-plain colored", "name": "Swift" },
-        { "class": "devicon-xcode-plain colored", "name": "Xcode" },
-        { "class": "devicon-apple-original", "name": "iOS + iPadOS" }
-      ]
+      "appStoreUrl": "https://apps.apple.com/us/app/scantip/id6741721331"
     },
     {
       "title": "Count & Sprout",
@@ -308,13 +304,9 @@
       "images": [
         "images/apps/count-sprout.png"
       ],
+      "appIcon": "images/apps/icons/count-sprout.png",
       "productUrl": "https://ck4957.github.io/count-sprout/",
-      "appStoreUrl": "https://apps.apple.com/us/app/count-sprout/id6785066902",
-      "technologies": [
-        { "class": "devicon-swift-plain colored", "name": "Swift" },
-        { "class": "devicon-xcode-plain colored", "name": "Xcode" },
-        { "class": "devicon-apple-original", "name": "iPadOS" }
-      ]
+      "appStoreUrl": "https://apps.apple.com/us/app/count-sprout/id6785066902"
     },
     {
       "title": "MemoFlip",
@@ -326,13 +318,9 @@
       "images": [
         "images/apps/memo-flip.png"
       ],
+      "appIcon": "images/apps/icons/memo-flip.png",
       "productUrl": "https://ck4957.github.io/VisionPro-MemoFlip/",
-      "appStoreUrl": "https://apps.apple.com/us/app/memocardflip/id6742595725",
-      "technologies": [
-        { "class": "devicon-swift-plain colored", "name": "Swift" },
-        { "class": "devicon-xcode-plain colored", "name": "Xcode" },
-        { "class": "devicon-apple-original", "name": "visionOS" }
-      ]
+      "appStoreUrl": "https://apps.apple.com/us/app/memocardflip/id6742595725"
     },
     {
       "title": "Hulas Tracker",
@@ -344,12 +332,9 @@
       "images": [
         "images/apps/hulas-tracker.png"
       ],
+      "appIcon": "images/apps/icons/hulas-tracker.png",
       "productUrl": "https://ck4957.github.io/hulas-tracker/",
-      "technologies": [
-        { "class": "devicon-swift-plain colored", "name": "Swift" },
-        { "class": "devicon-xcode-plain colored", "name": "Xcode" },
-        { "class": "devicon-apple-original", "name": "iOS + iPadOS" }
-      ]
+      "appStoreUrl": null
     }
   ],
   "projects": [
