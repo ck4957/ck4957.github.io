@@ -74,24 +74,33 @@ header {
 
 .skills-tile {
 	background-color: color.scale(#F8F5F4, $alpha: -95%);
-	padding: 10px 10px 5px 10px;
-	width: 100px;
-	min-height: 74px;
+	padding: 12px 8px 10px;
+	width: 110px;
+	min-height: 112px;
 	margin: 5px 0 5px 0;
 	border-radius: 8px;
+	display: grid;
+	grid-template-rows: 44px minmax(2.4rem, auto);
+	gap: 8px;
+	justify-items: center;
+}
+
+.skill-icon-container {
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	line-height: 1;
 }
 
 .skill-brand-icon {
 	display: block;
-	width: 2.2rem;
-	height: 2.2rem;
-	font-size: 2.2rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	font-size: 2.5rem;
 	line-height: 1;
-	margin: 0 auto 4px;
+	margin: 0;
 }
 
 .skill-brand-icon svg {
@@ -100,18 +109,22 @@ header {
 	height: 100%;
 }
 
-.skills-tile > i {
+.skill-icon-container > i {
 	display: block;
-	width: 2.2rem;
-	height: 2.2rem;
+	font-size: 2.5rem;
 	line-height: 1;
-	margin: 0 auto 4px;
+	margin: 0;
 }
 
 .skill-label {
 	font-size: 0.75rem;
 	line-height: 1.2;
-	margin: 4px 0 0;
+	margin: 0;
+	min-height: 2.4rem;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
 }
 
 .language {

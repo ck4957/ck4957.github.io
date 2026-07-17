@@ -120,19 +120,11 @@
             "class": "devicon-swift-plain colored"
           },
           {
-            "name": "SwiftUI",
-            "class": "devicon-swift-plain colored"
-          },
-          {
             "name": "Xcode",
             "class": "devicon-xcode-plain colored"
           },
           {
             "name": "iOS",
-            "class": "devicon-apple-original"
-          },
-          {
-            "name": "visionOS",
             "class": "devicon-apple-original"
           }
         ]

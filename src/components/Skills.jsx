@@ -10,8 +10,8 @@ class Skills extends Component {
         var icons = category.icons.map(function (skill, i) {
           return (
             <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center skills-tile">
+              <div className="text-center skills-tile">
+                <span className="skill-icon-container">
                   {skill.icon ? (
                     <span
                       className="iconify skill-brand-icon"
@@ -20,15 +20,11 @@ class Skills extends Component {
                       aria-hidden="true"
                     ></span>
                   ) : (
-                    <i
-                      className={skill.class}
-                      style={{ fontSize: "220%" }}
-                      aria-hidden="true"
-                    ></i>
+                    <i className={skill.class} aria-hidden="true"></i>
                   )}
-                  <p className="text-center skill-label">{skill.name}</p>
-                </div>
-              </span>
+                </span>
+                <p className="text-center skill-label">{skill.name}</p>
+              </div>
             </li>
           );
         });

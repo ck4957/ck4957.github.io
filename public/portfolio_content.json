@@ -3,9 +3,9 @@
   "personal": {
     "name": "Chirag Kular",
     "titles": [
-      "AI-Focused Full Stack Developer",
+      "Full Stack Developer",
       "Software Engineer",
-      "LLM and RAG Builder"
+      "AI-Assisted Developer"
     ],
     "patent": {
       "title": "Systems and Methods for Providing prompts on an Electronic Device",
@@ -49,17 +49,17 @@
       "dd-fund.png",
       "dd-apm.png"
     ],
-    "tagline": "Full-stack engineer building reliable web, cloud, and healthcare software while actively applying AI-assisted development, LLM applications, and retrieval-augmented generation patterns.",
+    "tagline": "Full-stack engineer building reliable web, cloud, and healthcare software with AI-assisted development workflows.",
     "focus": [
       "AI-assisted development workflows",
-      "LLM application patterns",
-      "Retrieval-augmented generation",
+      "Effective prompting",
+      "Agent and sub-agent workflows",
       "Cloud-native APIs and automation"
     ]
   },
   "profile": {
     "description_header": "Hi 👋 I'm Chirag Kular",
-    "description": "Senior Software Engineer with 8+ years of experience across full-stack development, cloud architecture, and scalable enterprise solutions. I build modular component systems, AWS-backed services, healthcare data workflows, and accessible React/Angular interfaces, and I am actively expanding that foundation into practical AI engineering with LLM integrations, RAG patterns, prompt workflows, and AI-assisted developer tooling.",
+    "description": "Senior Software Engineer with 8+ years of experience across full-stack development, cloud architecture, and scalable enterprise solutions. I build modular component systems, AWS-backed services, healthcare data workflows, and accessible React/Angular interfaces. I use AI tools—including prompting, agents, and sub-agents—to accelerate software development while keeping review, testing, and architecture human-owned.",
     "section_name": {
       "about": "About me",
       "apps": "Apps I’m shipping",
@@ -142,19 +142,11 @@
             "class": "devicon-swift-plain colored"
           },
           {
-            "name": "SwiftUI",
-            "class": "devicon-swift-plain colored"
-          },
-          {
             "name": "Xcode",
             "class": "devicon-xcode-plain colored"
           },
           {
             "name": "iOS",
-            "class": "devicon-apple-original"
-          },
-          {
-            "name": "visionOS",
             "class": "devicon-apple-original"
           }
         ]
@@ -256,23 +248,17 @@
   },
   "ai_positioning": {
     "section_name": "AI Focus",
-    "headline": "Learning AI by building practical software around it.",
-    "summary": "I am positioning my next portfolio work around AI-enabled product engineering: LLM-backed workflows, retrieval over trusted data, prompt evaluation, and cloud deployment patterns that make AI features maintainable instead of flashy demos.",
+    "headline": "AI-assisted software development.",
+    "summary": "I use AI tools to accelerate software development through effective prompting, agents, and sub-agents—while keeping engineering judgment, review, and testing in the loop.",
     "highlights": [
-      "Exploring LLM application architecture, prompt design, and structured output patterns.",
-      "Practicing RAG fundamentals: embeddings, vector search, chunking, grounding, and answer evaluation.",
-      "Connecting AI features to production habits from AWS, healthcare data, APIs, testing, and CI/CD.",
-      "Using AI coding tools deliberately to speed up iteration while keeping review, tests, and architecture human-owned."
+      "Using agents and sub-agents to break down work and speed up iteration.",
+      "Writing focused prompts to explore, implement, test, and refine software."
     ],
     "keywords": [
-      "LLM",
-      "RAG",
       "AI-assisted engineering",
-      "Prompt engineering",
-      "Embeddings",
-      "Vector search",
-      "AWS",
-      "FHIR"
+      "Prompting",
+      "Agents",
+      "Sub-agents"
     ]
   },
   "apps_section": {
