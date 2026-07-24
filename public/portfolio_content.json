@@ -281,6 +281,20 @@
       "appStoreUrl": "https://apps.apple.com/us/app/scantip/id6741721331"
     },
     {
+      "title": "MotionRise",
+      "startDate": "Jul-2026",
+      "platform": "iPhone",
+      "mediaType": "phone",
+      "accent": "orange",
+      "description": "Turn a morning reminder into a short, guided movement ritual with private, on-device pose verification.",
+      "images": [
+        "images/apps/motion-rise.png"
+      ],
+      "appIcon": "images/apps/icons/motion-rise.png",
+      "productUrl": "https://ck4957.github.io/motion-rise/",
+      "appStoreUrl": null
+    },
+    {
       "title": "Count & Sprout",
       "startDate": "Jul-2026",
       "platform": "iPadOS",
@@ -307,20 +321,6 @@
       "appIcon": "images/apps/icons/memo-flip.png",
       "productUrl": "https://ck4957.github.io/VisionPro-MemoFlip/",
       "appStoreUrl": "https://apps.apple.com/us/app/memocardflip/id6742595725"
-    },
-    {
-      "title": "Hulas Tracker",
-      "startDate": "Jul-2026",
-      "platform": "iPhone + iPad",
-      "mediaType": "phone",
-      "accent": "teal",
-      "description": "A calmer way to capture walk context, behavior, recovery, and what helped while the details are fresh.",
-      "images": [
-        "images/apps/hulas-tracker.png"
-      ],
-      "appIcon": "images/apps/icons/hulas-tracker.png",
-      "productUrl": "https://ck4957.github.io/hulas-tracker/",
-      "appStoreUrl": null
     }
   ],
   "projects": [
