@@ -7,7 +7,7 @@ const Blog = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('blog_posts.json');
+        const response = await fetch('/blog_posts.json');
         const data = await response.json();
         setPosts(data);
       } catch (error) {

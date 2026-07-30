@@ -12,6 +12,7 @@ class MockIntersectionObserver {
 }
 
 global.IntersectionObserver = MockIntersectionObserver;
+global.scrollTo = vi.fn();
 
 const portfolioContent = {
   personal: {
@@ -37,9 +38,9 @@ const portfolioContent = {
 };
 
 const jsonResponses = {
-  "portfolio_content.json": portfolioContent,
-  "resumes/manifest.json": { current: null, versions: [] },
-  "blog_posts.json": []
+  "/portfolio_content.json": portfolioContent,
+  "/resumes/manifest.json": { current: null, versions: [] },
+  "/blog_posts.json": []
 };
 
 global.fetch = vi.fn(async (input) => {

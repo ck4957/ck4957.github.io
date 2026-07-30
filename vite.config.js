@@ -2,8 +2,8 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  // Keeps asset paths relative for GitHub Pages and other static hosts.
-  base: "./",
+  // This user site is hosted at the GitHub Pages domain root.
+  base: "/",
   plugins: [
     react({
       include: ["**/*.js", "**/*.jsx"],

@@ -31,12 +31,12 @@ const normalizeContent = (content) => ({
 
 export const loadPortfolioContent = async () => {
   try {
-    return normalizeContent(await fetchJson('portfolio_content.json'));
+    return normalizeContent(await fetchJson('/portfolio_content.json'));
   } catch (error) {
     console.warn(error);
     const [sharedData, resumeData] = await Promise.all([
-      fetchJson('portfolio_shared_data.json'),
-      fetchJson('res_primaryLanguage.json')
+      fetchJson('/portfolio_shared_data.json'),
+      fetchJson('/res_primaryLanguage.json')
     ]);
 
     return { sharedData, resumeData };
@@ -45,7 +45,7 @@ export const loadPortfolioContent = async () => {
 
 export const loadResumeManifest = async () => {
   try {
-    return fetchJson('resumes/manifest.json');
+    return fetchJson('/resumes/manifest.json');
   } catch (error) {
     console.warn(error);
     return { current: null, versions: [] };
