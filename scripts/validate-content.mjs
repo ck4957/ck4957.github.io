@@ -24,6 +24,10 @@ assert(Array.isArray(content.experience), 'portfolio_content.json: experience mu
 assert(content.skills?.categories?.length, 'portfolio_content.json: skills.categories is required.');
 assert(Array.isArray(content.apps), 'portfolio_content.json: apps must be an array.');
 
+for (const certification of content.personal.certifications ?? []) {
+  await access(path.join(root, 'public', 'images', certification));
+}
+
 for (const project of content.projects) {
   assert(project.title, 'Each project needs a title.');
   assert(project.description, `Project "${project.title}" needs a description.`);

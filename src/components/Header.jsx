@@ -3,6 +3,7 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 
 const certificationAltText = {
+  "claude-certified-developer-foundations.png": "Claude Certified Developer - Foundations",
   "aws_dea_c01.png": "AWS Certified Data Engineer Associate",
   "aws_dva_c02.png": "AWS Certified Developer Associate",
   "aws_saa_c03.png": "AWS Certified Solutions Architect Associate",

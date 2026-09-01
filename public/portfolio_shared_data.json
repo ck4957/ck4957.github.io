@@ -40,6 +40,7 @@
     ],
     "image": "Chirag.jpg",
     "certifications": [
+      "claude-certified-developer-foundations.png",
       "aws_dva_c02.png",
       "aws_saa_c03.png",
       "aws_dea_c01.png",
